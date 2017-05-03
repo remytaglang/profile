@@ -23,12 +23,7 @@ p {
 }
 
 a{
-  color: #ed945c;
   text-decoration: none;
-}
-
-a:hover {
-    background-color: #dd5555;
 }
 
 #profile {
@@ -49,6 +44,10 @@ a:hover {
   padding: 10px;
   width: 500px;
 }
+#sidebar a {
+    text-decoration: none;
+    color: #788188;
+}
 
 .small {
   width: 90%;
@@ -67,6 +66,8 @@ a:hover {
   display: inline-block;
   padding: Opx 20px;
   font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
 }
 .list-inline > li > i{
   font-size: 18px;
@@ -78,5 +79,36 @@ a:hover {
 
 .text-center {
   text-align : center;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #384047;
+  border-radius: 15px
+  padding-left:10px
+  margin-left:10px;
+}
+
+.icon {
+  margin-top: 40px;
+}
+
+#sidebar li{
+  list-style: none;
+}
+
+#sidebar ul{
+  padding-left: 0;
+}
+
+#sidebar > p {
+line-height: 20px;
+}
+#page-content {
+  margin-left: 300px;
 }
 /* Here goes your CSS */
