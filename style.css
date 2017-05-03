@@ -1,0 +1,82 @@
+body{
+  background-image: url(back.png);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #dd5555;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 12px;
+}
+
+a{
+  color: #ed945c;
+  text-decoration: none;
+}
+
+a:hover {
+    background-color: #dd5555;
+}
+
+#profile {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background :white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.small {
+  width: 90%;
+}
+
+.btn-red{
+  background-color: #C61414;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: Opx 20px;
+  font-size: 12px;
+}
+.list-inline > li > i{
+  font-size: 18px;
+}
+
+.bottom {
+  margin-bottom: 165px;
+}
+
+.text-center {
+  text-align : center;
+}
+/* Here goes your CSS */
